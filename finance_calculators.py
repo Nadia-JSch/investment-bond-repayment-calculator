@@ -8,8 +8,8 @@ print("Welcome to the Investment & Home Loan Repayment Calculator!\n")
 
 # First, the user chooses the investment or bond calculator
 calc_type = input("""Choose either 'investment' or 'bond' from the menu below to proceed:
-\ninvestment \t- to calculate the amount of interest you'll earn on interest
-bond \t\t- to calculate the amount you'll have to pay on a home loan\n""")
+\ninvestment \t- calculate the amount of interest you'll earn on investment
+bond \t\t- calculate the amount you'll have to pay on a home loan\n""")
 
 # user input.txt shouldn't be case senstive, so have some common otptions of user input.txt
 if calc_type == "investment" or calc_type == "INVESTMENT" or calc_type =="INVESTMENT" or calc_type =="iNVESTMENT" or calc_type =="invest":
